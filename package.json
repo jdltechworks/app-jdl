@@ -23,6 +23,7 @@
     "sails": "~0.12.1",
     "sails-disk": "~0.10.9",
     "bcryptjs": "^2.3.0",
+    "connect-mongo": "^1.1.0",
     "jsonwebtoken": "^5.7.0",
     "passport": "^0.3.2",
     "passport-jwt": "^2.0.0",

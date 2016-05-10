@@ -66,11 +66,11 @@ module.exports.session = {
   * store                                                                    *
   *                                                                          *
   ***************************************************************************/
-  adapter: 'connect-mongo',
+  //adapter: 'connect-mongo',
   // host: 'localhost',
   // port: 27017,
   // db: 'sails',
-  collection: 'sessions',
+  //collection: 'sessions',
 
   /***************************************************************************
   *                                                                          *
@@ -80,11 +80,11 @@ module.exports.session = {
   * 'mongodb://user:pass@host:port/database/collection',                     *
   *                                                                          *
   ***************************************************************************/
-  url: 'mongodb://'+process.env.OPENSHIFT_MONGODB_DB_USERNAME+':'+process.env.OPENSHIFT_MONGODB_DB_PASSWORD+'@'+process.env.OPENSHIFT_MONGODB_DB_HOST+':'+process.env.OPENSHIFT_MONGODB_DB_PORT+'/app',
+  //url: 'mongodb://'+process.env.OPENSHIFT_MONGODB_DB_USERNAME+':'+process.env.OPENSHIFT_MONGODB_DB_PASSWORD+'@'+process.env.OPENSHIFT_MONGODB_DB_HOST+':'+process.env.OPENSHIFT_MONGODB_DB_PORT+'/app',
   // username: '',
   // password: '',
-  auto_reconnect: false,
-  ssl: false,
-  stringify: false
+  //auto_reconnect: false,
+  //ssl: false,
+  //stringify: false
 
 };
